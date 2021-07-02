@@ -1,0 +1,28 @@
+.custom-button{
+    min-width: 165px;
+    width: auto;
+    height: 50px;
+    padding: 0 32px 0 32px;
+    color:#fff;
+    border: 1px solid #000;
+    outline: none;
+    background-color: #000;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .2s linear ;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-family: 'open sans condensed';
+    &:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    &.blue{
+        background-color: rgb(26, 110, 167);
+        margin-left: 20px;
+        &:hover{
+            background-color: #fff;
+            color: #000;
+        }
+    }
+}
